@@ -7,7 +7,11 @@ import org.apache.http.HttpStatus;
 import org.junit.Test;
 import ru.yandex.practicum.client.order.OrderClient;
 
+import java.util.List;
+
 import static org.hamcrest.Matchers.notNullValue;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
 
 @Slf4j
 public class OrdersTest {

@@ -16,6 +16,7 @@ import static org.hamcrest.CoreMatchers.notNullValue;
 import static ru.yandex.practicum.constant.ScooterColorUtils.COLOR_BLACK;
 import static ru.yandex.practicum.constant.ScooterColorUtils.COLOR_GREY;
 
+
 @Slf4j
 @RunWith(Parameterized.class)
 public class OrderCreateTest {
